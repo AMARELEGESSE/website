@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+   margin: 0;
+    box-sizing: content-box;
+
+}
+.body {
+    font-family: sans-serif;
+font-weight: 100;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+width: 100%;
+min-width: 980px;
+min-height: 100%;
+line-height: 1;
+}
+
+..header {
+    background-color: #FFFFFF;
+    height: 90px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: transparent;
+    border-width: 2px 2px 2px 2px;
+    display: flex;
+    white-space: nowrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.headwrapper h1 {
+box-sizing: border-box;
+position: relative;
+top: 33%;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.25;
+}
+.navwrapper {
+    box-sizing: border-box;
+    height: 90px;
+    width: 50%;
+    margin: 37px 15px 0 25px;
+    justify-content: flex-end; 
+}
+nav {
+    display: flex;
+    float: right; 
+}
+ul {
+    box-sizing: content-box;
+    display: flex;
+    width: fit-content;
+    height: fit-content;  
+}
+.header nav ul li {
+    width: auto;
+    height: 30px;
+    padding: 0px 23px 0px 23px;
+    display: flex;
+    justify-content: flex-end; 
+}
+.contents {
+    height: auto;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center; 
+}
+.card {
+    box-sizing: border-box;
+    width: 33%;
+    height: 475px;
+    margin: 1px 2px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFFFFF;
+    text-align: center;
+}
